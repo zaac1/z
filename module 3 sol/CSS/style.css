@@ -1,0 +1,61 @@
+nav {
+  background-color: gray;
+}
+nav div {
+  background-color: rgb(247, 245, 243);
+}
+header {
+  font-size: 150%;
+  padding-left: 40%;
+}
+#col-1 {
+  float: left;
+  width: 30%;
+}
+#col-2 {
+  float: left;
+  width: 30%;
+}
+#col-3 {
+  float: left;
+  width: 30%;
+}
+div {
+  background-color: gray;
+  padding: 10px;
+  margin: 10px;
+}
+div h3 {
+  font-size: 125%;
+  padding-left: 40%;
+}
+@media screen and (min-width: 768px) {
+  #tog {
+    display: none;
+  }
+}
+@media screen and (min-width: 768) and (max-width: 998px) {
+  #col-1 {
+    float: left;
+    width: 45%;
+  }
+  #col-2 {
+    float: left;
+    width: 45%;
+  }
+  #col-3 {
+    clear: left;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #col-1 {
+    width: 100%;
+  }
+  #col-2 {
+    width: 100%;
+  }
+  #col-3 {
+    width: 100%;
+  }
+}
